@@ -15,6 +15,7 @@ html{
 }
 
 /*LOGO+NAV*/
+
 header{
     padding: 10px;
     text-align: center;
@@ -55,19 +56,24 @@ a:visited {
     color: white
 }
 
-/*Hero*/
+/*HERO*/
 
 .hero-image{
+    display: flex;
+    flex-direction: column;
     background-image: url(../images/hero.jpg);
     background-size: cover;
-    height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    align-self: center;
 }
 
 .hero-text {
+    font-size: 1.4rem;
     text-align: center;
-    position: absolute;
-    top: 45%;
-    left: 50%;
     background-color: black;
     padding: 1rem;
 }
@@ -191,6 +197,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    margin: 0;
 }
 .container {
     flex: 1;
