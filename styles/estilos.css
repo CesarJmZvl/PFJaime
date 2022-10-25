@@ -86,7 +86,7 @@ a:visited {
     margin-bottom: 4px;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
     .header__navbar {
         flex-direction: column;
     }
@@ -109,7 +109,7 @@ a:visited {
 .hero-image{
     display: flex;
     flex-direction: column;
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/HeroImg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -126,7 +126,7 @@ a:visited {
     padding: 1rem;
 }
 
-div a{
+-hero-text a {
     text-decoration: none;
 }
 
