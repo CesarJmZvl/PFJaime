@@ -1,0 +1,27 @@
+/*HERO*/
+
+.hero__image{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/HeroImg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.hero__text {
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+}
+
+.hero__button {
+    text-decoration: none;
+}
+
