@@ -50,7 +50,7 @@ main {
   padding: 10px;
 }
 .header__item a:hover:not(.active) {
-  background-color: black;
+  background-color: rgba(61, 61, 61, 0.756);
 }
 .header .active {
   background-color: rgb(71, 71, 71);

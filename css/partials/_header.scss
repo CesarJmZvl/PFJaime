@@ -33,10 +33,10 @@
         padding: 10px;   
     }
     &__item a:hover:not(.active){
-        background-color: black;
+        background-color: $hover_grey;
     }
     .active{
-        background-color: rgb(71, 71, 71);
+        background-color: $active_grey;
     }
     a:link, a:visited{
         color: white;
