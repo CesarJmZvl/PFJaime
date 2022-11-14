@@ -25,6 +25,9 @@
     .hero__image {
         height: 53vh;
     }
+    .hero__dates, .hero__news, .hero__about, .hero__contact {
+        height: 30vh;
+    }
     .hero__text {
         display: none;
     }
@@ -34,11 +37,17 @@
     .hero__image {
         height: 30vh;
     }
+    .hero__dates, .hero__news, .hero__about, .hero__contact {
+        height: 15vh;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .hero__image {
         height: 23vh;
+    }
+    .hero__dates, .hero__news, .hero__about, .hero__contact {
+        height: 10vh;
     }
 }
 

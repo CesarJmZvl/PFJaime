@@ -17,14 +17,14 @@
             <div>
                 <img class="header__logo" src="./images/logo_nav.svg" alt="into the veil of death logo">
             </div>
-            <ul class="header__navlist">
+            <ul class="header__navlist" id="nav__list">
                 <li class="header__item"><a href="./index.html">Home</a></li>
                 <li class="header__item"><a href="./dates.html">Dates</a></li>
                 <li class="header__item"><a href="./news.html" class="active">News</a></li>
                 <li class="header__item"><a href="./about.html">About</a></li>
                 <li class="header__item"><a href="./contact.html">Contact</a></li>
             </ul>
-            <div class="header__toogle">
+            <div class="header__toogle" id="toggle__btn">
                 <div class="header__menu-line"></div>
                 <div class="header__menu-line"></div>
                 <div class="header__menu-line"></div>
@@ -57,4 +57,12 @@
         </section>
 	</footer>
 </body>
+<script>
+    const toggle__btn = document.getElementById("toggle__btn");
+    const nav__list = document.getElementById("nav__list");
+
+    toggle__btn.addEventListener("click", () => {
+        nav__list.classList.toggle("active__nav")
+    })
+</script>
 </html>

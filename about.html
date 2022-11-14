@@ -17,14 +17,14 @@
             <div>
                 <img class="header__logo" src="./images/logo_nav.svg" alt="into the veil of death logo">
             </div>
-            <ul class="header__navlist">
+            <ul class="header__navlist" id="nav__list">
                 <li class="header__item"><a href="./index.html">Home</a></li>
                 <li class="header__item"><a href="./dates.html">Dates</a></li>
                 <li class="header__item"><a href="./news.html">News</a></li>
                 <li class="header__item"><a href="./about.html" class="active">About</a></li>
                 <li class="header__item"><a href="./contact.html">Contact</a></li>
             </ul>
-            <div class="header__toogle">
+            <div class="header__toogle" id="toggle__btn">
                 <div class="header__menu-line"></div>
                 <div class="header__menu-line"></div>
                 <div class="header__menu-line"></div>
@@ -37,7 +37,7 @@
     </header>
     <main>
         <h1>About us</h1>
-        <p>We are a band formed in Saltillo, Coahuila in 2017. Initially we started as a tribute of the band Moonspell, which are a big influence for us. Some years later (and a lot of covers) we turned into an eclectic band, combining elements from black, death, atmospheric and symphonic metal.</p>
+        <p>We are a Mexican band formed in 2017. At first we started as a tribute band. Some years later (and a lot of covers) we turned into an eclectic band, combining elements from black, death, atmospheric and symphonic metal.</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eSbiw_SyqtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
     <footer>
@@ -53,4 +53,12 @@
         </section>
 	</footer>
 </body>
+<script>
+    const toggle__btn = document.getElementById("toggle__btn");
+    const nav__list = document.getElementById("nav__list");
+
+    toggle__btn.addEventListener("click", () => {
+        nav__list.classList.toggle("active__nav")
+    })
+</script>
 </html>
