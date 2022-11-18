@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+.contact__container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .contact__fieldset{
+        align-self: flex-start;
+    }
+    .contact__info{
+        padding: 5px;
+        align-self: flex-start;
+        li{
+            list-style-type: none;
+        }
+    }
+    h2{
+        margin-top: 1rem;
+    }
+    fieldset{
+        padding: 5px;
+        background-color: black;
+        border-color: black;
+    }  
+    input, button{
+        background-color: $active-grey;
+        border-radius: 5px;
+        color: white;
+        padding: 0.1em;
+        margin-bottom: 0.5em;
+    }
+    button{
+        margin-top: 0.5em;
+        padding: 0.5em;
+    }
+}

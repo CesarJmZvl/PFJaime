@@ -1,0 +1,18 @@
+.news__container{
+    display: flex;
+    flex-direction: row;
+    .news__card{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin: 0.5em;
+        padding: 10px;
+        background-color: rgba(46, 46, 46, 0.236);
+        img{
+            height: 45vh;
+        }
+        span{
+            display: block;
+        }
+    }
+}

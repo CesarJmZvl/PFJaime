@@ -23,6 +23,12 @@ footer {
             li {
                 margin: 0.5rem;
                 font-size: 1.25rem;
+                border-radius: 5px;
+                padding: 5px 10px 1px 10px;
+            }
+            li:hover{
+                background-color: $hover_grey;
+                transition: all ease-in-out 850ms;
             }
         }    
     }

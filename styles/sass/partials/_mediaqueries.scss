@@ -31,6 +31,12 @@
     .hero__text {
         display: none;
     }
+    .header__navlist{
+        display: none;
+    }
+    .news__container{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -40,6 +46,13 @@
     .hero__dates, .hero__news, .hero__about, .hero__contact {
         height: 15vh;
     }
+    .header__navlist{
+        display: none;
+    }
+    .news__container{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -47,7 +60,10 @@
         height: 23vh;
     }
     .hero__dates, .hero__news, .hero__about, .hero__contact {
-        height: 10vh;
+        height: 12vh;
+    }
+    .header__navlist{
+        display: none;
     }
 }
 
