@@ -410,6 +410,17 @@ body {
     justify-content: space-evenly;
   }
 }
+@media screen and (max-width: 425px) {
+  .hero__image {
+    height: 27vh;
+  }
+  .hero__dates, .hero__news, .hero__about, .hero__contact {
+    height: 12vh;
+  }
+  .header__navlist {
+    display: none;
+  }
+}
 @media screen and (max-width: 320px) {
   .hero__image {
     height: 23vh;
