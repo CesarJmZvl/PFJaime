@@ -6,6 +6,13 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .hero__dates, .hero__news, .hero__about, .hero__contact {
+        height: 40vh;
+    }    
+}
+
+
 @media screen and (max-width: 768px) {
     .header__navbar {
         flex-direction: column;
